@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage[UTF8]{ctex}
+
+\title{RDCSS 2020：Newton力学小测验}
+\author{詹有丘}
+
+\begin{document}
+
+\maketitle
+
+全开卷;时间120分钟;满分150分.
+
+\paragraph{问题1}
+令
+$$t:\mathbb R^4\to\mathbb R:\left(a_0,a_1,a_2,a_3\right)\mapsto a_1+2a_2-3a_3,$$
+给出Galileo构造$\left(\mathbb R^4,t\right)$
+与Galileo坐标系的同构.
+
+\paragraph{问题2}
+具有单位质量的光滑小环套在水平放置的直长硬轨道上,一根弹簧一端固定在距离轨道$d$的某处,另一端固定在小环上.当弹簧的长度为$l$时,具有势能$U=\frac12\left(l-l_0\right)^2$.求小环的微振动周期.
+
+\paragraph{问题3}
+有一维势场$U$,
+满足在相平面内,对应于任意的能量$E>U_\mathrm{min}$的等能集为简单封闭曲线,
+且该曲线围成的图形的面积$S\left(E\right)=E^2$.
+\begin{enumerate}
+	\item 求能量为$E$的质点在该势场中运动的周期$T\left(E\right)$.
+	\item $U$是在$\left[0,+\infty\right)$上单调增的偶函数,且$U\left(0\right)=0$.求$U$.
+\end{enumerate}
+\textit{提示}.$$\int\frac x{\sqrt{a-x}}\mathrm dx=-\frac23\left(2a+x\right)\sqrt{a-x}+C.$$
+
+\paragraph{问题4}
+令$f\left(\omega,x\right):=\cos\omega x$.
+\begin{enumerate}
+	\item 证明对于任意的$\omega\in\mathbb N$,
+	存在$\omega$次多项式$P$,
+	使得$f\left(\omega,x\right)=P\left(\cos x\right)$.
+	\item 输入$\cos x$和自然数$n$,给出一种能在$\mathrm O\left(n\right)$时间内使用四则运算计算出$f\left(2^n,x\right)$的算法.(请使用主流的计算机语言或流程图.)
+\end{enumerate}
+
+\paragraph{问题5}
+有有心势场$U=kr^2$,其中$k>0$.
+\begin{enumerate}
+	\item 对于一维的情形,画出相曲线,并证明相曲线为椭圆.
+	\item 对于二维的情形,证明轨迹为椭圆.
+	\item 对于三维的情形,证明轨迹为椭圆.
+	\item 对于四维的情形,证明轨迹为椭圆.
+\end{enumerate}
+\textit{注}.我们认为线段或点也算椭圆的一种(即退化了的椭圆).
+
+\paragraph{问题6}
+系统由质量分别为$m_1$和$m_2$的两质点组成,且具有的势能
+$$U=U\left(\left|\mathbf r_1-\mathbf r_2\right|\right).$$
+证明当$m_1\to\infty$时,在$m_1$初始静止的参考系中$m_1$将始终静止,
+且$m_2$相对于$m_1$的运动等同于具有单位质量的质点在有心力场$V=U\left(r\right)/m_2$中的运动.
+
+\end{document}
